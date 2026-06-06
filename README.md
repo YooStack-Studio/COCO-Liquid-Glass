@@ -19,9 +19,9 @@
 
 <table>
   <tr>
-    <td align="center"><img src="./效果图1.png" alt="浅色背景下的液态玻璃效果" width="260"></td>
-    <td align="center"><img src="./效果图2.png" alt="渐变背景下的液态玻璃效果" width="260"></td>
-    <td align="center"><img src="./效果图3.png" alt="插画背景下的液态玻璃效果" width="260"></td>
+    <td align="center"><img src="./images/效果图1.png" alt="浅色背景下的液态玻璃效果" width="260"></td>
+    <td align="center"><img src="./images/效果图2.png" alt="渐变背景下的液态玻璃效果" width="260"></td>
+    <td align="center"><img src="./images/效果图3.png" alt="插画背景下的液态玻璃效果" width="260"></td>
   </tr>
   <tr>
     <td align="center"><sub>浅色背景</sub></td>
@@ -108,9 +108,9 @@
 </details>
 
 <p align="center">
-  <img src="./可调参数1.png" alt="液态玻璃属性面板上半部分" width="360">
+  <img src="./images/可调参数1.png" alt="液态玻璃属性面板上半部分" width="360">
   &nbsp;
-  <img src="./可调参数2.png" alt="液态玻璃属性面板下半部分" width="356">
+  <img src="./images/可调参数2.png" alt="液态玻璃属性面板下半部分" width="356">
 </p>
 
 ## 积木能力
@@ -129,13 +129,13 @@
 | `液态玻璃 是否显示` | 布尔值 | 获取 CoCo 提供的通用显示状态 |
 
 <p align="center">
-  <img src="./积木块1.png" alt="液态玻璃设置类积木" width="390">
+  <img src="./images/积木块1.png" alt="液态玻璃设置类积木" width="390">
   &nbsp;
-  <img src="./积木块2.png" alt="液态玻璃设置类积木续" width="390">
+  <img src="./images/积木块2.png" alt="液态玻璃设置类积木续" width="390">
 </p>
 
 <p align="center">
-  <img src="./积木块3.png" alt="液态玻璃返回值积木" width="430">
+  <img src="./images/积木块3.png" alt="液态玻璃返回值积木" width="430">
 </p>
 
 ## 推荐参数
@@ -188,14 +188,15 @@ backdrop-filter 叠加模糊、对比度、亮度和饱和度
 ```text
 COCO-Liquid-Glass/
 ├── cocyper-liquid-glass.jsx   # 控件源码
-├── 可调参数1.png              # 属性面板截图
-├── 可调参数2.png
-├── 积木块1.png                # 积木截图
-├── 积木块2.png
-├── 积木块3.png
-├── 效果图1.png                # 效果预览
-├── 效果图2.png
-├── 效果图3.png
+├── images/
+│   ├── 可调参数1.png          # 属性面板截图
+│   ├── 可调参数2.png
+│   ├── 积木块1.png            # 积木截图
+│   ├── 积木块2.png
+│   ├── 积木块3.png
+│   ├── 效果图1.png            # 效果预览
+│   ├── 效果图2.png
+│   └── 效果图3.png
 ├── LICENSE
 └── README.md
 ```
